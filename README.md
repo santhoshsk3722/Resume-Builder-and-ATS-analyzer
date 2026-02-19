@@ -43,20 +43,24 @@ cd Resume-Builder-and-ATS-analyzer
 ```
 
 **🔹 Frontend Setup**
+```bash
 cd frontend
 npm install
 npm start
-
-
+```
 Open: http://localhost:3000
 
 **🔹 Backend Setup (Python Example)**
+```bash
 cd backend
 pip install -r requirements.txt
 python app.py
+```
 
 **🐳 Run with Docker (Optional)**
+```bash
 docker-compose up --build
+```
 
 **📁 Project Structure**
 Resume-Builder-and-ATS-analyzer
@@ -88,6 +92,7 @@ Cloud deployment (AWS / Azure)
 
 **👨‍💻 Author:** Santhosh Kumar P S
 **🔗 GitHub:** https://github.com/santhoshsk3722
+
 
 
 
