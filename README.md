@@ -1,138 +1,89 @@
-📄 Resume Builder & ATS Analyzer
+# 📄 Resume Builder & ATS Analyzer
 
-A web application that helps users build professional resumes and analyze them for ATS (Applicant Tracking System) compatibility.
+![GitHub stars](https://img.shields.io/github/stars/santhoshsk3722/Resume-Builder-and-ATS-analyzer)
+![GitHub forks](https://img.shields.io/github/forks/santhoshsk3722/Resume-Builder-and-ATS-analyzer)
+![GitHub license](https://img.shields.io/github/license/santhoshsk3722/Resume-Builder-and-ATS-analyzer)
 
-This project is designed to help job seekers create resumes that can pass automated screening systems by evaluating keywords, formatting, and content quality.
+A modern web application that helps job seekers **build professional resumes** and **analyze them for ATS (Applicant Tracking System) compatibility**.  
+This project is built to improve your chances of getting shortlisted by automated recruiter systems.
 
-🚀 Features
+---
 
-Build and edit professional resumes
+## 🚀 Features
 
-ATS compatibility analysis
+- ✨ Resume Builder with clean templates  
+- 📄 Export resume as **PDF / DOCX**  
+- 🤖 ATS Compatibility Scanner  
+- 📊 Resume Scoring System  
+- 🔎 Keyword analysis & improvement suggestions  
+- 🧠 (Planned) Job Description vs Resume Matching  
+- 🐳 Docker support (optional deployment)
 
-Resume scoring based on keywords and structure
+---
 
-Suggestions to improve ATS score
+## 🛠 Tech Stack
 
-Export resumes as PDF or DOCX
+| Layer     | Technology                    |
+|-----------|-------------------------------|
+| Frontend  | React / Next.js               |
+| Backend   | Node.js / Python (FastAPI)    |
+| Styling   | HTML, CSS, JavaScript         |
+| Database  | SQLite / MongoDB (optional)   |
+| DevOps    | Docker, Docker Compose        |
 
-Job description keyword matching (planned)
+---
 
-🛠️ Tech Stack
-Frontend
+## 📦 Installation
 
-React / Next.js
+### 🔹 Clone the Repository
 
-HTML, CSS, JavaScript
-
-Backend
-
-Node.js or Python (Flask / FastAPI)
-
-ATS Analysis
-
-Resume parsing (PDF / DOCX)
-
-Keyword matching
-
-NLP-based scoring
-
-DevOps (Optional)
-
-Docker
-
-Docker Compose
-
-CI/CD pipelines
-
-📂 Project Structure
-
-Resume-Builder-and-ATS-analyzer
-├── frontend/ # Resume builder UI
-├── backend/ # Backend API and ATS logic
-├── docker-compose.yml # Docker configuration
-├── README.md # Project documentation
-└── requirements.txt / package.json
-
-📥 Installation
-Clone the Repository
-
+```bash
 git clone https://github.com/santhoshsk3722/Resume-Builder-and-ATS-analyzer.git
-
 cd Resume-Builder-and-ATS-analyzer
 
-🔧 Prerequisites
-
-Node.js (v14 or higher)
-
-npm or yarn
-
-Python 3.8+ (if using Python backend)
-
-Docker (optional)
-
-▶️ Run the Application
-Run Without Docker
-Frontend
-
+🔹 Frontend Setup
 cd frontend
 npm install
 npm start
 
-Backend
 
+Open: http://localhost:3000
+
+🔹 Backend Setup (Python Example)
 cd backend
 pip install -r requirements.txt
 python app.py
 
-Run Using Docker
-
+🐳 Run with Docker (Optional)
 docker-compose up --build
 
-🌐 Usage
+📁 Project Structure
+Resume-Builder-and-ATS-analyzer
+├── frontend/              # Resume builder UI
+├── backend/               # ATS Analyzer API
+├── docker-compose.yml     # Docker config
+├── requirements.txt       # Python dependencies
+├── package.json           # Frontend dependencies
+└── README.md              # Documentation
 
-Open your browser and navigate to: http://localhost:3000
+🧪 Usage
 
-Create or upload your resume
+Start frontend & backend
+Open browser → http://localhost:3000
+Create or upload resume
+Run ATS scan
+Improve resume based on suggestions
+Download optimized resume
 
-Click Analyze ATS Score
+🛣 Roadmap
 
-Review ATS score and improvement suggestions
-
-Download your optimized resume
-
-🗺️ Roadmap
-
-Resume builder UI
-
-Basic ATS scoring
-
-Job description keyword matching
-
-AI-based resume improvement suggestions
-
-User authentication
-
-Cloud deployment
-
-🤝 Contributing
-
-Contributions are welcome.
-
-Fork the repository
-
-Create a new feature branch
-
-Commit your changes
-
-Push to your branch
-
-Open a Pull Request
-
-📜 License
-
-This project is licensed under the MIT License.
+AI-powered resume suggestions
+Job description matching
+Resume templates gallery
+Authentication & profiles
+Cloud deployment (AWS / Azure)
 
 📬 Contact
 
-GitHub: https://github.com/santhoshsk3722
+👨‍💻 Author: Santhosh Kumar P S
+🔗 GitHub: https://github.com/santhoshsk3722
