@@ -42,7 +42,7 @@ git clone https://github.com/santhoshsk3722/Resume-Builder-and-ATS-analyzer.git
 cd Resume-Builder-and-ATS-analyzer
 ```
 
-###🔹 Frontend Setup
+**🔹 Frontend Setup**
 cd frontend
 npm install
 npm start
@@ -50,15 +50,15 @@ npm start
 
 Open: http://localhost:3000
 
-###🔹 Backend Setup (Python Example)
+**🔹 Backend Setup (Python Example)**
 cd backend
 pip install -r requirements.txt
 python app.py
 
-###🐳 Run with Docker (Optional)
+**🐳 Run with Docker (Optional)**
 docker-compose up --build
 
-##📁 Project Structure
+**📁 Project Structure**
 Resume-Builder-and-ATS-analyzer
 ├── frontend/              # Resume builder UI
 ├── backend/               # ATS Analyzer API
@@ -67,7 +67,7 @@ Resume-Builder-and-ATS-analyzer
 ├── package.json           # Frontend dependencies
 └── README.md              # Documentation
 
-##🧪 Usage
+**🧪 Usage**
 
 Start frontend & backend
 Open browser → http://localhost:3000
@@ -76,7 +76,7 @@ Run ATS scan
 Improve resume based on suggestions
 Download optimized resume
 
-##🛣 Roadmap
+**🛣 Roadmap**
 
 AI-powered resume suggestions
 Job description matching
@@ -84,10 +84,11 @@ Resume templates gallery
 Authentication & profiles
 Cloud deployment (AWS / Azure)
 
-##📬 Contact
+**📬 Contact**
 
-##👨‍💻 Author: Santhosh Kumar P S
-##🔗 GitHub: https://github.com/santhoshsk3722
+**👨‍💻 Author:** Santhosh Kumar P S
+**🔗 GitHub:** https://github.com/santhoshsk3722
+
 
 
 
