@@ -39,7 +39,8 @@ This project is built to improve your chances of getting shortlisted by automate
 
 ```bash
 git clone https://github.com/santhoshsk3722/Resume-Builder-and-ATS-analyzer.git
-cd Resume-Builder-and-ATS-analyzer```
+cd Resume-Builder-and-ATS-analyzer
+```
 
 ###🔹 Frontend Setup
 cd frontend
@@ -87,5 +88,6 @@ Cloud deployment (AWS / Azure)
 
 ##👨‍💻 Author: Santhosh Kumar P S
 ##🔗 GitHub: https://github.com/santhoshsk3722
+
 
 
